@@ -35,7 +35,7 @@ PrintNaturalNumbers(N, M);
 
 
 
-Console.Write("Введите неотрицательное число m: ");
+/*Console.Write("Введите неотрицательное число m: ");
 int m = int.Parse(Console.ReadLine());
 
 Console.Write("Введите неотрицательное число n: ");
@@ -53,4 +53,22 @@ static int AckermannFunction(int m, int n)
         return AckermannFunction(m - 1, 1);
     else
         return AckermannFunction(m - 1, AckermannFunction(m, n - 1));
+}
+
+/*
+Задача №3 
+Задайте произвольный массив. Выведете его элементы, начиная с конца. Использовать рекурсию, не использовать циклы.*/
+
+int[] аrray = { 1, 2, 5, 0, 10, 34 };
+
+Console.WriteLine();
+PrintArrayReverse(аrray, аrray.Length - 1);
+
+void PrintArrayReverse(int[] arr, int i)
+{
+    if (i >= 0)
+    {
+        Console.Write(arr[i] + " ");
+        PrintArrayReverse(arr, i - 1);
+    }
 }
