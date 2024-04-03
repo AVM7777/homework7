@@ -12,3 +12,4 @@ C:\Users\User\Desktop\гиг брейнс\C#\Homework7\obj\Debug\net8.0\refint\H
 C:\Users\User\Desktop\гиг брейнс\C#\Homework7\obj\Debug\net8.0\Homework7.pdb
 C:\Users\User\Desktop\гиг брейнс\C#\Homework7\obj\Debug\net8.0\Homework7.genruntimeconfig.cache
 C:\Users\User\Desktop\гиг брейнс\C#\Homework7\obj\Debug\net8.0\ref\Homework7.dll
+C:\Users\User\Desktop\гиг брейнс\C#\Homework7\obj\Debug\net8.0\Homework7.sourcelink.json
